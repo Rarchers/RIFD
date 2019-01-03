@@ -1,2 +1,3 @@
 # RIFD
-a app to read or write data form RIFD card by NFC
+
+An app used to read or write data form RIFD card by NFC
