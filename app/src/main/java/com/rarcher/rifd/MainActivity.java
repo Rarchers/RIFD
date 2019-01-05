@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Read.class);
                 startActivity(intent);
-                finish();
+
             }
         });
 
@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         write.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplicationContext(),Write.class);
+                startActivity(intent);
             }
         });
 
